@@ -1,0 +1,10 @@
+# Archivos y directorios generados por el sistema
+.DS_Store
+._.DS_Store
+
+# Directorio de dependencias de Node.js
+node_modules/
+
+# Archivos de índice (posiblemente generados por sistemas macOS)
+._img
+._video
