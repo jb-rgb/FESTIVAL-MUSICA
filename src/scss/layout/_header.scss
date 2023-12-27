@@ -1,14 +1,15 @@
 @use 'base/variables' as var;
+@use 'base/mixins' as mix;
 
 .header {
     background-color: var.$verde;
-
     h1 {
         color: var.$blanco;
     }
 }
 
 .navegacion-principal {
+    background-color: red;
     a {
         color: var.$blanco;
         font-size: 2.4rem;

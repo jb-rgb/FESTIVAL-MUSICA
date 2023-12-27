@@ -361,6 +361,9 @@ h3 {
   color: #FFFFFF;
 }
 
+.navegacion-principal {
+  background-color: red;
+}
 .navegacion-principal a {
   color: #FFFFFF;
   font-size: 2.4rem;

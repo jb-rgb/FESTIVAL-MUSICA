@@ -1,6 +1,25 @@
-@mixin heading {
-    text-transform: uppercase;
-    font-size: 2.4rem;
-    color: black;
-    letter-spacing: 1px;
+@use 'variables' as var;
+
+@mixin telefono {
+    @media (min-width: var.$telefono) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: var.$tablet) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: var.$desktop) {
+        @content;
+    }
+}
+
+@mixin desktopXL {
+    @media (min-width: var.$desktopXL) {
+        @content;
+    }
 }
