@@ -4,7 +4,7 @@ Esta es una página web desarrollada con HTML, CSS, SASS y JavaScript (Gulp) que
 
 ## Descripción del proyecto
 
-Esta página web fue creada por **Jorge Barahona** como parte del curso "Desarrollo Web Completo con HTML5, CSS3, JS, PHP y MySQL" disponible en [Udemy](https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/). Proporciona una experiencia interactiva para explorar un festival de música virtual.
+Esta página web fue creada por [Jorge Barahona](https://github.com/jb-rgb) como parte del curso "Desarrollo Web Completo con HTML5, CSS3, JS, PHP y MySQL" disponible en [Udemy](https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/). Proporciona una experiencia interactiva para explorar un festival de música virtual.
 
 ## Características
 
