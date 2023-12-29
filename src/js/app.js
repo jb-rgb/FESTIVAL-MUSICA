@@ -15,6 +15,23 @@ function crearGaleria() {
             <source srcset="build/img/thumb/${i}.webp" type="image/webp">
             <img loading="lazy" src="build/img/thumb/${i}.jpg" alt="Imagen Galeria">
         `;
+        imagen.onclick = function () {
+            mostrarImagen(i);
+        }
         galeria.appendChild(imagen)
     }
+}
+
+function mostrarImagen(id) {
+    const imagen = document.createElement('picture');
+    imagen.innerHTML = `
+        <source srcset="build/img/grande/${id}.avif" type="image/avif">
+        <source srcset="build/img/grande/${id}.webp" type="image/webp">
+        <img loading="lazy" src="build/img/grande/${id}.jpg" alt="Imagen Galeria">
+    `;
+    const overlay = document.createElement('div');
+    overlay.appendChild(imagen);
+    overlay.classList.add('overlay');
+    const body = document.querySelector('body');
+    body.appendChild(overlay);
 }
