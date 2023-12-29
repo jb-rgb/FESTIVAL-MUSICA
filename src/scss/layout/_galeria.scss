@@ -1,0 +1,23 @@
+@use 'base/variables' as var;
+@use 'base/mixins' as mix;
+
+.galeria {
+    padding: 5rem 0;
+    h3 {
+        text-align: center;
+    }
+}
+
+.galeria-imagenes {
+    @include mix.resetear-lista;
+    @include mix.grid(2, 2rem);
+    @include mix.telefono {
+        @include mix.grid(3, 2rem);
+    }
+    @include mix.tablet {
+        @include mix.grid(4, 2rem);
+    }
+    @include mix.desktop {
+        @include mix.grid(6, 2rem);
+    }
+}
