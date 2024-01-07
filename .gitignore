@@ -8,3 +8,6 @@ node_modules/
 # Archivos de índice (posiblemente generados por sistemas macOS)
 ._img
 ._video
+
+# .json
+package-lock.json
