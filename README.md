@@ -9,8 +9,8 @@ El proyecto fue creado por [Jorge Barahona](https://github.com/jb-rgb) como part
 ## Características
 
 - Galería de imágenes de conciertos.
-- Información detallada sobre el line-up, incluyendo [detalles específicos].
-- Opción de compra de boletos (En desarrollo).
+- Información detallada sobre el line-up.
+- Opción de compra de boletos.
 
 ## Estado del proyecto
 
